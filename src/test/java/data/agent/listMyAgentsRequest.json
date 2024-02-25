@@ -1,0 +1,8 @@
+{
+  "name": "TestAutomationName",
+  "description": "TestAutomationDescription",
+  "isDefault": true,
+  "isActive": true,
+  "isPublic": true,
+  "maxWorkers": 2
+}

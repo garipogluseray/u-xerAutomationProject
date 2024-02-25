@@ -1,0 +1,13 @@
+{
+  "includeOwner": true,
+  "includeAccount": true,
+  "includeOsVersion": true,
+  "includeJobs": true,
+  "includeTags": true,
+  "includeFrameworkVersions": true,
+  "includeBrowserVersions": true,
+  "includeConnections": true,
+  "searchText": "#string",
+  "name": null,
+  "description": null
+}

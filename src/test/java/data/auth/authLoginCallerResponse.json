@@ -1,0 +1,29 @@
+{
+  "response": {
+    "accessToken": "#string",
+    "expires": "#string",
+    "notBefore": "#string",
+    "refreshToken": "#string",
+    "name": "#string",
+    "surname": "#string",
+    "email": "#string",
+    "role": "#string",
+    "username": "#string",
+    "tokenType": "#string",
+    "accountId": "#string",
+    "userId": "#string",
+    "guid": "#string",
+    "accounts": [
+      {
+        "id": "#string",
+        "userId": "#string",
+        "userName": "#string",
+        "userSurname": "#string",
+        "accountId": "#string",
+        "accountName": "#string",
+        "accountType": "#string",
+        "role": "#string"
+      }
+    ]
+  }
+}

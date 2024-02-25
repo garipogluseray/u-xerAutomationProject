@@ -1,0 +1,6 @@
+{
+  "errorResoponse" : {
+    "errorCode" : "#string",
+    "errorMessae" : "#string"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "string",
+  "description": "string",
+  "isDefault": true,
+  "isActive": true,
+  "isPublic": true,
+  "maxWorkers": 0
+}

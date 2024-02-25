@@ -1,0 +1,21 @@
+{
+  "url": "screenshots/00000000-0000-0000-0000-000000000000/20240225134605-ec2306b3-3216-4467-bdab-d143457b759b.png",
+  "continue": false,
+  "objects": [
+    {
+      "id": "ba081b44-0466-4545-931c-a33e798aa12c",
+      "classifier": "Object",
+      "text": "",
+      "index": 0,
+      "xMin": 1349,
+      "yMin": 63,
+      "xMax": 1370,
+      "yMax": 74,
+      "x": 1359,
+      "y": 68,
+      "classifierEnum": "Text",
+      "locationStr": "Object  "
+    }
+  ],
+  "helpers": []
+}

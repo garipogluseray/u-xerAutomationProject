@@ -1,0 +1,9 @@
+[
+  {
+    "start": "2024-01-16T10:16:08.3995661+03:00",
+    "end": "2024-01-16T10:16:08.4153879+03:00",
+    "success": true,
+    "milliseconds": 15.8218,
+    "name": "Account AddUser AccountId:10000000-4eab-4ecd-aec3-000000000001 UserId:2b2a347a-a8d9-45ca-b5d9-afae58687e33 Role:Admin"
+  }
+]

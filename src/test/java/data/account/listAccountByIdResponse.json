@@ -1,0 +1,30 @@
+{
+  "response": {
+    "id": "#string",
+    "companyName": "#string",
+    "description": "#string",
+    "website": "#string",
+    "address": "#string",
+    "countryCode": "#string",
+    "countryName": "#string",
+    "accountType": "#string",
+    "phoneNumber": "#string",
+    "ownerId": "#string",
+    "ownerName": "#string",
+    "ownerSurname": "#string",
+    "logo": "#string",
+    "logoRoot": "#string",
+    "users": [
+    ],
+    "agreements": [
+    ],
+    "addons": [
+    ],
+    "projects": [
+    ],
+    "agents": [
+    ],
+    "installedAddons": [
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad4c0e2c-4e8f-462d-8d89-029705971c1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/agent/deleteApiAgentByIdCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/agent/postApiAgentCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/getToken/getTokenCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/listAccountByIdResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountByIdRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountRoleByIdRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountRoleByIdResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/UpdateAgentByIdRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/listMyAgentsRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/listMyAgentsResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/previewRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/previewResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/searchAgentRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/searchAgentResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/takeScreenshotResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/generalErrorMessages/generalErrorMessage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/listAccountById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountRoleById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/defaultAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/getAgentById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/listMyAgents.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/notDefaultAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/passiveAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/preview.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/privateAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/publicAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/searchAgent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/takeScreenshot.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/updateAgentById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2azhzeuLuBmXVu9mNBNdpwTWJwk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\callers\agent" />
+      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\callers\getTokenCallers" />
+      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\data\auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.All Features in: agent">
+    <configuration name="All Features in: agent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="UxerTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="All Features in: agent" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: activeAgent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="UxerTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: activeAgent" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: createAndDeleteAgent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="UxerTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: createAndDeleteAgent" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: deleteAgentById" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/deleteAgentById.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="UxerTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: deleteAgentById" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="features.uxer.agent in UxerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UxerTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="features.uxer.agent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="features.uxer.agent" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.All Features in: agent" />
+        <item itemvalue="JUnit.features.uxer.agent in UxerTest" />
+        <item itemvalue="Cucumber Java.Feature: createAndDeleteAgent" />
+        <item itemvalue="Cucumber Java.Feature: activeAgent" />
+        <item itemvalue="Cucumber Java.Feature: deleteAgentById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad4c0e2c-4e8f-462d-8d89-029705971c1a" name="Changes" comment="" />
+      <created>1705327581930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705327581930</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UxerTest$All_Features_in__agent.ic" NAME="All Features in: agent Coverage Results" MODIFIED="1706626262691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
