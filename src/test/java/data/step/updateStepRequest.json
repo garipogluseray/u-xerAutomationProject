@@ -1,0 +1,16 @@
+{
+  "step": {
+    "expression": {
+      "Action": "Click",
+      "Location": [
+        {
+          "Classifier": "Text",
+          "Text": "Test",
+          "Index": 1
+        }
+      ]
+    },
+    "isActive": true
+  },
+  "isActive": true
+}

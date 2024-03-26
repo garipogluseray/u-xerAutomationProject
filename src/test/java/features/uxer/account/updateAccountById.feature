@@ -7,9 +7,9 @@ Feature: Put Account By AccountId
     * header Content-Type =  'application/json'
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
-  @smoke
+  @regression
   Scenario: Put Account By AccountId
-    Given path account_service_path+accountId
+    Given path account_service_path+"/"+accountId
     When request rqJson
     When method PUT
     Then status 200

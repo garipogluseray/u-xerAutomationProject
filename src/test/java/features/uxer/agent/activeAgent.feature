@@ -7,7 +7,7 @@ Feature: Active Agent
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Active Agent
     Given path agent_service_path+"/"+agentIdTest2+"/active"
     When request {}

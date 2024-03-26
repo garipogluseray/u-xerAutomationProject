@@ -8,9 +8,9 @@ Feature: Update Account Role By Id
     * header Content-Type =  'application/json'
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
-  @smoke
+  @regression
   Scenario: Update Account Role By Id
-    Given path account_service_path+accountId+'/users'
+    Given path account_service_path+"/"+accountId+'/users'
     * set rqJson[0].userId = userId
     * set rqJson[0].role = "Admin"
     When request rqJson

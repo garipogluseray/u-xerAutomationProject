@@ -7,7 +7,7 @@ Feature: NotDefault  Agent
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: NotDefault  Agent
     Given path agent_service_path+"/"+agentIdTest2+"/notdefault"
     When request {}

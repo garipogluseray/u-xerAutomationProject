@@ -6,7 +6,7 @@ Feature: Take Screenshot
     * header Content-Type =  'application/json'
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
-  @smoke
+  @regression
   Scenario: Take Screenshot
     Given path agent_service_path+"/"+agentIdTest1+"/screenshot"
     When request {}

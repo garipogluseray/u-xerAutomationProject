@@ -14,4 +14,3 @@ Feature: Post Api Agent
     When request rqJson
     When method POST
     Then status 200
-    * print response

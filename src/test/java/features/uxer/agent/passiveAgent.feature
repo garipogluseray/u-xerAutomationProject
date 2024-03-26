@@ -7,7 +7,7 @@ Feature: Passive Agent
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Passive Agent Test
     Given path agent_service_path+"/"+agentIdTest2+"/passive"
     When request {}

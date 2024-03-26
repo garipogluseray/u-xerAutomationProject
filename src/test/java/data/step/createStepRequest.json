@@ -1,0 +1,17 @@
+{
+  "scenarioId": "d8e3aa7b-2ec3-47f2-9630-560438444a08",
+  "step": {
+    "expression": {
+      "Action": "Click",
+      "Location": [
+        {
+          "Classifier": "Text",
+          "Text": "TestAutomation",
+          "Index": 2
+        }
+      ]
+    },
+    "isActive": true
+  },
+  "position": "Last"
+}

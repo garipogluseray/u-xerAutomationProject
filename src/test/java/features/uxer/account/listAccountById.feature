@@ -7,9 +7,9 @@ Feature: Get by AccountId
     * header Content-Type =  'application/json'
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
-
+  @regression
     Scenario: Get by AccountId
-      Given path account_service_path+accountId
+      Given path account_service_path+"/"+accountId
       When method GET
       Then status 200
 

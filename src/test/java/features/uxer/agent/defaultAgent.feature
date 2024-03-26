@@ -7,7 +7,7 @@ Feature: Default Agent
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Default Agent
     Given path agent_service_path+"/"+agentIdTest2+"/default"
     When request {}

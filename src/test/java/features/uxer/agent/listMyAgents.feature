@@ -9,7 +9,7 @@ Feature: List My Agents
     * header Content-Type =  'application/json'
 
 
-  @smoke
+  @regression
   Scenario: List My Agents
     Given path agent_service_path+"/mine"
     When request rqJson

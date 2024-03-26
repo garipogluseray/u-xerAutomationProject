@@ -7,7 +7,7 @@ Feature: Public Agent
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Public Agent
     Given path agent_service_path+"/"+agentIdTest2+"/public"
     When request {}

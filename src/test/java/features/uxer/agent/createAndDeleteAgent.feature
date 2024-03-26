@@ -10,7 +10,7 @@ Feature: Create Agent
     * def agent2 = karate.extract(agent, '([^\\"]+)"', 1)
     * def agentId = agent2
 
-  @smoke
+  @regression
   Scenario: Create Agent
     Given path agent_service_path+"/"+agentId
     When method DELETE

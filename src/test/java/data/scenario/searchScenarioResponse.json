@@ -1,0 +1,29 @@
+[
+  {
+    "id": "dc6b7a11-2a75-499c-be04-98f7d1d03d47",
+    "name": "AutomationTest",
+    "description": "AutomationTest",
+    "isActive": true,
+    "updated": "2024-03-06T11:46:19.758256Z",
+    "stepsUpdated": "2024-03-06T09:43:04.093625Z",
+    "lastStatus": {
+      "scenarioId": "dc6b7a11-2a75-499c-be04-98f7d1d03d47",
+      "start": "2024-03-06T09:44:47.412531Z",
+      "status": "Success"
+    },
+    "jobs": [],
+    "steps": [
+      {
+        "id": "9dca7381-35c6-4331-b9ee-d1680231dcd8",
+        "script": "Click Text \"History\" ",
+        "parsed": "{\r\n  \"IsActive\": true,\r\n  \"Expression\": {\r\n    \"Action\": \"Click\",\r\n    \"Location\": [\r\n      {\r\n        \"Classifier\": \"Text\",\r\n        \"Text\": \"History\"\r\n      }\r\n    ]\r\n  },\r\n  \"Parameters\": [],\r\n  \"Options\": []\r\n}",
+        "position": 100,
+        "isActive": true,
+        "scenarioId": "dc6b7a11-2a75-499c-be04-98f7d1d03d47",
+        "scenarioName": "AutomationTest",
+        "projectId": "09f19797-c35f-4b56-9c07-e32dd0e2548f"
+      }
+    ],
+    "tags": []
+  }
+]

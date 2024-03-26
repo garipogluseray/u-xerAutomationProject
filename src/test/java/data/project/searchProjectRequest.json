@@ -1,0 +1,7 @@
+{
+  "includeUsers": true,
+  "includeFolders": true,
+  "includeJobs": true,
+  "includeAccount": true,
+  "searchText": "string"
+}

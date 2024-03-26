@@ -7,7 +7,7 @@ Feature: Preview
     * header Content-Type =  'application/json'
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
-  @smoke
+  @regression
   Scenario: Preview
     Given path agent_service_path+"/"+agentIdTest1+"/preview"
     When request rqJson

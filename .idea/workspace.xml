@@ -5,52 +5,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4c0e2c-4e8f-462d-8d89-029705971c1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/callers/agent/deleteApiAgentByIdCallers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/callers/agent/postApiAgentCallers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/callers/getToken/getTokenCallers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/listAccountByIdResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountByIdRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountRoleByIdRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/account/updateAccountRoleByIdResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/UpdateAgentByIdRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/listMyAgentsRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/listMyAgentsResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/previewRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/previewResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/searchAgentRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/searchAgentResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/agent/takeScreenshotResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerRequest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerResponse.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/generalErrorMessages/generalErrorMessage.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/listAccountById.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountById.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountRoleById.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/defaultAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/getAgentById.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/listMyAgents.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/notDefaultAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/passiveAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/preview.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/privateAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/publicAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/searchAgent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/takeScreenshot.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/updateAgentById.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/project/createProjectCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/project/deleteProjectCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/scenario/createScenarioCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/scenario/deleteScenarioCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/step/createStepCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/callers/step/deleteStepCallers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/project/createProjectRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/project/searchProjectRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/project/updateProjectRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/createScenarioByFolderIdRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/createScenarioRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/createStepByScenarioIdRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/duplicateScenarioRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/getScenarioByIdResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/searchScenarioRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/searchScenarioResponse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/scenario/updateScenarioRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/step/createStepRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/step/duplicateStepRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/step/runSelectedStepRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/step/searchStepRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/step/updateStepRequest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/createAndDeleteProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/duplicateProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/getProjectById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/getProjectUsers.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/searchProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/project/updateProject.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/copyScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/createAndDeleteScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/createScenarioByFolderId.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/createStepByScenarioId.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/downloadScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/duplicateSceneario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/getScenarioById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/moveScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/searchScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/updateScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/scenario/uploadScenario.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/createAndDeleteStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/duplicateStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/getSelectedStepRun.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/getSelectedStepRunWithoutAgentId.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/getStepById.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/runSelecedStepWithoutAgentId.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/runSelectedStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/searchStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/uxer/step/updateStep.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/callers/agent/postApiAgentCallers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/callers/agent/postApiAgentCallers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/auth/authLoginCallerRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/account/listAccountById.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/listAccountById.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountById.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountById.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountRoleById.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/account/updateAccountRoleById.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/defaultAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/defaultAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/getAgentById.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/getAgentById.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/listMyAgents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/listMyAgents.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/notDefaultAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/notDefaultAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/passiveAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/passiveAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/preview.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/preview.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/privateAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/privateAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/publicAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/publicAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/searchAgent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/searchAgent.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/takeScreenshot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/takeScreenshot.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/uxer/agent/updateAgentById.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/uxer/agent/updateAgentById.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,25 +106,30 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright.filetypes.JAVA&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\callers\agent" />
-      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\callers\getTokenCallers" />
-      <recent name="C:\Users\Seray\Desktop\UxerTest\src\test\java\data\auth" />
+      <recent name="C:\Users\Seray\Desktop\u-xerAutomationProject3\target" />
+      <recent name="C:\Users\Seray\Desktop\u-xerAutomationProject3\src\test\java\features\uxer\scenario" />
+      <recent name="C:\Users\Seray\Desktop\u-xerAutomationProject3\src\test\java\resources" />
+      <recent name="C:\Users\Seray\Desktop\u-xerAutomationProject3" />
+      <recent name="C:\Users\Seray\Desktop\u-xerAutomationProject3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.All Features in: agent">
-    <configuration name="All Features in: agent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.All Features in: step">
+    <configuration name="All Features in: step" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/step" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UxerTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="All Features in: agent" />
+      <option name="SUGGESTED_NAME" value="All Features in: step" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +141,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: activeAgent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: getSelectedStepRun" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/activeAgent.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/step/getSelectedStepRun.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UxerTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: activeAgent" />
+      <option name="SUGGESTED_NAME" value="Feature: getSelectedStepRun" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: createAndDeleteAgent" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: getSelectedStepRunWithoutAgentId" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/createAndDeleteAgent.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/step/getSelectedStepRunWithoutAgentId.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UxerTest" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: createAndDeleteAgent" />
+      <option name="SUGGESTED_NAME" value="Feature: getSelectedStepRunWithoutAgentId" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -150,14 +179,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: deleteAgentById" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Run Selected Step Without Agent Id" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/agent/deleteAgentById.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/uxer/step/runSelecedStepWithoutAgentId.feature" />
       <option name="GLUE" value="com.intuit.karate" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="UxerTest" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: deleteAgentById" />
+      <option name="NAME_FILTER" value="^Run Selected Step Without Agent Id$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Run Selected Step Without Agent Id$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Run Selected Step Without Agent Id" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -169,27 +199,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="features.uxer.agent in UxerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="features.uxer.step in UxerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UxerTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="features.uxer.agent.*" />
+          <option name="PATTERN" value="features.uxer.step.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="features.uxer.agent" />
+      <option name="PACKAGE_NAME" value="features.uxer.step" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.All Features in: agent" />
-        <item itemvalue="JUnit.features.uxer.agent in UxerTest" />
-        <item itemvalue="Cucumber Java.Feature: createAndDeleteAgent" />
-        <item itemvalue="Cucumber Java.Feature: activeAgent" />
-        <item itemvalue="Cucumber Java.Feature: deleteAgentById" />
+        <item itemvalue="Cucumber Java.All Features in: step" />
+        <item itemvalue="JUnit.features.uxer.step in UxerTest" />
+        <item itemvalue="Cucumber Java.Feature: getSelectedStepRunWithoutAgentId" />
+        <item itemvalue="Cucumber Java.Feature: getSelectedStepRun" />
+        <item itemvalue="Cucumber Java.Scenario: Run Selected Step Without Agent Id" />
       </list>
     </recent_temporary>
   </component>
@@ -220,8 +261,14 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/u_xerAutomationProject3$features_uxer_agent_in_UxerTest.ic" NAME="features.uxer.agent in UxerTest Coverage Results" MODIFIED="1709657293898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>features.uxer.agent.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UxerTest$All_Features_in__agent.ic" NAME="All Features in: agent Coverage Results" MODIFIED="1706626262691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/u_xerAutomationProject3$features_uxer_project_in_UxerTest.ic" NAME="features.uxer.project in UxerTest Coverage Results" MODIFIED="1711404720903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>features.uxer.project.*</FILTER>
     </SUITE>
   </component>
 </project>

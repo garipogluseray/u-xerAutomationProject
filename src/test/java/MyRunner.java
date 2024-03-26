@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static java.lang.Integer.parseInt;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class myRunner {
+public class MyRunner {
 
     @Karate.Test
     Karate testAll() {
@@ -48,6 +48,11 @@ public class myRunner {
         Results results = Runner.path("classpath:features/uxer").tags("@smoke").outputCucumberJson(true).parallel(count);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
 
+    }
+
+    @Test
+    public Karate runTest() {
+        return Karate.run("fileUpload").relativeTo(getClass());
     }
 
 }

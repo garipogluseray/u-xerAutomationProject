@@ -1,0 +1,10 @@
+{
+  "includeFolder": true,
+  "includeTags": true,
+  "includeJobs": true,
+  "includeSteps": true,
+  "includeParameters": true,
+  "includeLastStatus": true,
+  "includeStepUpdated": true,
+  "searchText": "AutomationTest"
+}

@@ -10,7 +10,7 @@ Feature: Search Agents
     * header accept = '*/*'
 
 
-  @smoke
+  @regression
   Scenario: Search Agents with searchText
     Given path agent_service_path+"/search"
     * set rqJson.searchText = "Seray"

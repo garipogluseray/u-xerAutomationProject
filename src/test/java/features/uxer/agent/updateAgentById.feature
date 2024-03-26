@@ -8,7 +8,7 @@ Feature: Update Agent By Id
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Update Agent By Id
     Given path agent_service_path+"/"+agentIdTest2
     * set rqJson.name = "AgentTestAutomationNameUpdated"

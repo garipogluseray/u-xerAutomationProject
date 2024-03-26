@@ -7,7 +7,7 @@ Feature: Get Agent By Id
     * header Authorization = 'Bearer ' + accessTokens.accessToken
 
 
-  @smoke
+  @regression
   Scenario: Get Agent By Id
     Given path agent_service_path+"/"+agentIdTest2
     When method GET
